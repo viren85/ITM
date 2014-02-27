@@ -1,0 +1,79 @@
+﻿@model DisSol.Models.DiseaseDetailModel
+
+@{
+    ViewBag.Title = "Add Patient Detail";
+}
+
+<h2 id="title">Add Patient</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="ErrorContainer">@TempData["Error"]</div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="SuccessContainer">@TempData["Success"]</div>
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "Admission failed. Please check the details")
+
+  
+        
+        <div class="Record">
+            <div class="Column1">
+
+                @Html.LabelFor(age => age.Age)
+            </div>
+            <div class="Column2">
+                @Html.TextBoxFor(age => age.Age)
+                @Html.ValidationMessageFor(age => age.Age)
+            </div>
+        </div>
+
+
+        <div class="Record">
+            <div class="Column1">
+                @Html.LabelFor(gender => gender.Gender)
+            </div>
+
+            <div class="Column2">
+                @Html.DropDownListFor(g => g.Gender, new List<SelectListItem> {
+           new SelectListItem{Text = "Male", Value = "Male"},
+           new SelectListItem{Text = "Female", Value = "Female"}
+       }, "Gender")
+                @Html.ValidationMessageFor(m => m.Gender)
+            </div>
+        </div>
+
+        <div class="Record">
+            <div class="Column1">
+                @Html.LabelFor(area => area.AreaId)
+            </div>
+            <div class="Column2">
+                @Html.DropDownListFor(m => m.AreaId, Model.Areas, "Select Areas")
+                @Html.ValidationMessageFor(m => m.AreaId)
+            </div>
+        </div>
+
+        <div class="Record">
+            <div class="Column1">
+                @Html.LabelFor(disease => disease.DiseaseId)
+            </div>
+            <div class="Column2">
+                @Html.DropDownListFor(disease => disease.DiseaseId, Model.Disease, "Select Disease")
+                @Html.ValidationMessageFor(disease => disease.DiseaseId)
+            </div>
+        </div>
+
+
+
+        <div class="Record">
+            <input type="submit" value="Add" class="btn btn-success" />
+        </div>
+    
+}
+
+

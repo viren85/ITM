@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+
+
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class = "form-signin" }))
+{
+    <div>
+        <h2 class="form-signin-heading" id="logintitle">Please sign in</h2>
+        @if (TempData["Error"] != null)
+        {
+            <div style="float: left; padding-bottom: 6px; color: red;">@TempData["Error"]</div>
+        }
+
+        @Html.TextBox("UserName", "", new { @class = "form-signin", placeholder = "Username" })
+        @Html.Password("Password", "", new { @class = "form-signin", placeholder = "Password" })
+        <input type="submit" value="Sign in" class="btn btn-large btn-primary" />
+
+    </div>
+
+    <div class="Record">
+        @Html.ActionLink("Click here for Registeration", "Registration", "Home")
+    </div>
+
+}
+

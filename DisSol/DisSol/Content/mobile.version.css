@@ -1,0 +1,998 @@
+﻿body {
+}
+
+/* iPad landscape · width: 1024px */
+@media only screen and (max-width:1024px) {
+    .logo {
+        width: 15% !important;
+        margin: 10px 0px 10px -60px !important;
+    }
+
+    .slider {
+        width: 124% !important;
+        margin-top: 103px !important;
+        margin-left: 0px !important;
+    }
+
+    .container {
+        width: 920px !important;
+    }
+
+    .magn-left {
+        margin-left: 0px !important;
+    }
+
+    .full-width-section {
+        background-size: 30% 38% !important;
+    }
+
+    .contact-left {
+        margin-left: 3% !important;
+        width: 35% !important;
+        float: left !important;
+    }
+
+    .mobile-conpact {
+        margin-right: 0px !important;
+    }
+
+    .login_form {
+        /*margin: -23% -20% 5% -10% !important;*/
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        /*display: none !important;*/
+    }
+
+    .block {
+        /*display: none !important;*/
+    }
+
+    .start-learn {
+    }
+
+    .form-signin {
+        /*width: 51% !important;*/
+    }
+}
+
+/* iPad portrait · width: 768px */
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 20% !important;
+        margin: 0px !important;
+    }
+
+    .slider {
+        width: 124% !important;
+        margin-top: 103px !important;
+        margin-left: 0px !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    #students, #colleges {
+        display: none !important;
+    }
+
+    .syllabus-left {
+        margin-left: 10px !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .featured-services {
+        font-size: 42px;
+        width: 90%;
+        margin-top: 15%;
+    }
+
+    .magn-left {
+        margin-left: 0px !important;
+    }
+
+    .full-width-section {
+        background-size: 30% 38% !important;
+    }
+
+    .contact-left {
+        margin-left: 3% !important;
+        width: 35% !important;
+        float: left !important;
+    }
+
+    .mobile-conpact {
+        margin-right: 0px !important;
+    }
+
+    .login_form {
+        margin: -10% 0% 0% 5% !important;
+    }
+
+
+    h2 {
+        float: left !important;
+    }
+
+    #title {
+        margin-left: 18% !important;
+    }
+
+    h3 {
+        line-height: 23px !important;
+        font-size: 14px !important;
+        margin-left: 30% !important;
+        margin-top: 16% !important;
+    }
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        margin-top: 65px !important;
+        padding-left: 15px;
+        /* margin-left: -19px !important;*/
+        /*  padding-right: 5px;*/
+    }
+
+    #projectTitle {
+        /*display: none;*/
+    }
+
+    .Record .Column1 {
+        width: 220px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            margin-right: 10px !important;
+        }
+
+    .Record .Column2 input {
+        width: 200px !important;
+        margin-left: 30% !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        width: 213px !important;
+        margin-right: 10px !important;
+        margin-left: 30% !important;
+    }
+
+    .btn {
+        /*margin-left: 85px !important;*/
+        display: block !important;
+    }
+
+    .Record .btn {
+        margin-left: 18% !important;
+    }
+
+    */ .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        /*display: none !important;*/
+    }
+
+    .block {
+        /*display: none !important;*/
+    }
+
+    .start-learn {
+    }
+
+    .form-signin {
+        /*width: 51% !important;*/
+    }
+
+
+
+    .field-validation-error {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-left: 30% !important;
+        float: left !important;
+    }
+
+    .validation-summary-errors {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+        margin-left: 18% !important;
+        width: 70%;
+    }
+}
+
+/* Android (Nexus 4) landscape · width: 600px */
+@media only screen and (max-width:600px) {
+    .logo {
+        width: 20% !important;
+        margin: 0 !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        margin-top: 103px !important;
+        margin-left: 120px !important;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .login_form {
+        margin: -23% -20% 5% -10% !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 350% !important;
+    }
+
+    .form-signin {
+        width: 51% !important;
+    }
+
+    #title {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 18% !important;
+    }
+
+    h2 {
+        float: left !important;
+    }
+
+    h3 {
+        line-height: 23px !important;
+        font-size: 14px !important;
+        margin-left: 30% !important;
+        margin-top: 16% !important;
+    }
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        display: block !important;
+        margin-top: 65px !important;
+        padding-left: 15px;
+        /* margin-left: -19px !important;*/
+        /*  padding-right: 5px;*/
+    }
+
+   
+    .Record .Column1 {
+        display: block !important;
+        width: 220px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+        .Record .Column1 input {
+            display: block !important;
+            width: 200px !important;
+            /*margin-right: 10px !important;*/
+            margin-left: 18% !important;
+        }
+
+    .Record .Column2 input {
+        display: block !important;
+        width: 200px !important;
+        margin-left: 18% !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        display: block !important;
+        width: 213px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+    .btn {
+        /*margin-left: 85px !important;*/
+        display: block !important;
+    }
+
+    .Record .btn {
+        margin-left: 18% !important;
+    }
+
+    .Column2 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .field-validation-error {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-left: 18% !important;
+        float: left !important;
+    }
+
+    .validation-summary-errors {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+        margin-left: 18% !important;
+    }
+}
+
+/* iPhone 5 landscape · width: 568px */
+@media only screen and (max-width:568px) {
+    .login_form {
+        margin: -23% -20% 5% -10% !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        margin-top: 103px !important;
+        margin-left: 120px !important;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 350% !important;
+    }
+
+    .form-signin {
+        width: 51% !important;
+    }
+
+    .form-signin {
+        width: 88% !important;
+        margin-top: 11px !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    #title {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 18% !important;
+    }
+
+    h2 {
+        float: left !important;
+    }
+
+    h3 {
+        line-height: 23px !important;
+        font-size: 14px !important;
+        margin-left: 21% !important;
+        margin-top: 16% !important;
+    }
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+        margin-left: 3% !important;
+    }
+
+    .btn {
+        margin-left: 3% !important;
+    }
+
+    .btn {
+        margin-left: 3% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        margin-top: 65px !important;
+        padding-left: 15px;
+        /* margin-left: -19px !important;*/
+        /*  padding-right: 5px;*/
+    }
+
+    
+    .Record .Column1 {
+        width: 220px !important;
+        /*margin-right: 10px !important;*/
+        margin-left: 18% !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            /*margin-right: 10px !important;*/
+            margin-left: 18% !important;
+        }
+
+    .Record .Column2 input {
+        width: 200px !important;
+        margin-left: 18% !important;
+        /*margin-right:10px !important;*/
+        display: block !important;
+    }
+
+    .Record .Column2 select {
+        width: 213px !important;
+        /*margin-right: 10px !important;*/
+        margin-left: 18% !important;
+        display: block !important;
+    }
+
+    .btn {
+        /*margin-left: 85px !important;*/
+        display: block !important;
+    }
+
+    .Record .btn {
+        margin-left: 18% !important;
+    }
+    /*
+     .field-validation-error {
+        display:block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size:12px !important;
+         margin-left: 18% !important;
+    }
+
+    .validation-summary-errors{
+        display:block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size:12px !important;
+        float:left !important;
+         margin-left: 18% !important;
+      
+    }*/
+}
+
+
+
+
+/* landscape · width: 480px */
+@media only screen and (max-width:480px) {
+    .login_form {
+        margin: -28% -21% -63% -21% !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        margin-top: 103px !important;
+        margin-left: 120px !important;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 350% !important;
+    }
+
+    .form-signin {
+        width: 80% !important;
+    }
+
+    h3 {
+        margin-top: 16% !important;
+        margin-left: 15% !important;
+    }
+
+    #title {
+        margin-left: 18% !important;
+    }
+
+    .Record .Column1 {
+        width: 220px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            margin-right: 10px !important;
+            margin-left: 18% !important;
+        }
+
+    .Record .Column2 input {
+        width: 200px !important;
+        margin-left: 18% !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        width: 213px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+
+
+    .Record .btn {
+        margin-left: 18% !important;
+    }
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+        margin-left: 2.5% !important;
+    }
+
+    h2 {
+        margin-left: 2.5% !important;
+    }
+
+    .btn {
+        margin-left: 2.5% !important;
+    }
+
+    .Column2 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .field-validation-error {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-left: 18% !important;
+    }
+
+    .validation-summary-errors {
+        display: block !important;
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+        margin-left: 18% !important;
+    }
+}
+
+/* Android (Nexus 4) portrait · width: 384px */
+@media only screen and (max-width:384px) {
+    .login_form {
+        margin: -28% -21% -63% -21% !important;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 350% !important;
+    }
+
+    .form-signin {
+        width: 51% !important;
+    }
+
+
+    .form-signin {
+        width: 88% !important;
+        margin-top: 11px !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+
+    #title {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 18% !important;
+        margin-top: 15% !important;
+    }
+
+    h3 {
+        line-height: 23px !important;
+        font-size: 14px !important;
+        margin-left: 8% !important;
+        margin-top: 16% !important;
+    }
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+        margin-left: 2.5% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        margin-top: 35px !important;
+        padding-left: 15px;
+        margin-left: -5%;
+        /* margin-left: -19px !important;*/
+        /*  padding-right: 5px;*/
+    }
+
+    #projectTitle {
+        display: none;
+    }
+
+    .Record .Column1 {
+        width: 220px !important;
+        /*  margin-right: 10px !important;*/
+        margin-left: 18% !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            margin-right: 10px !important;
+        }
+
+    .Record .Column2 input {
+        width: 200px !important;
+        margin-left: 18% !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        width: 213px !important;
+        margin-right: 10px !important;
+        margin-left: 18% !important;
+    }
+
+    .Record .btn {
+        margin-left: 18% !important;
+    }
+
+    .Column2 {
+        width: 100% !important;
+    }
+
+    .field-validation-error {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-left: 18% !important;
+    }
+
+    .validation-summary-errors {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+        margin-left: 18% !important;
+    }
+}
+
+/* portrait · width: 320px */
+@media only screen and (max-width:320px) {
+    .login_form {
+        margin: -36% !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        margin-top: 103px !important;
+        margin-left: 120px !important;
+    }
+
+    .container {
+        width: auto !important;
+        margin-left: -6%;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 350% !important;
+    }
+
+    .form-signin {
+        width: 51% !important;
+    }
+
+
+    .form-signin {
+        width: 88% !important;
+        margin-top: 11px !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+
+    h2 {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 0px !important;
+        margin-top: -3% !important;
+    }
+
+    h3 {
+        margin-top: 16% !important;
+        margin-left: 4% !important;
+    }
+
+    #title {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 35px !important;
+        margin-top: 15% !important;
+    }
+
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+        margin-left: 2% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        margin-top: 35px !important;
+        padding-left: 15px;
+        /* margin-left: -19px !important;*/
+        /*  padding-right: 5px;*/
+    }
+
+    #projectTitle {
+        display: none;
+    }
+
+    .Record .Column1 {
+        width: 220px !important;
+        margin-right: 10px !important;
+        margin-left: 35px !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            margin-right: 10px !important;
+        }
+
+    .Record .Column2 input {
+        width: 200px !important;
+        margin-left: 35px !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        width: 213px !important;
+        margin-right: 10px !important;
+        margin-left: 35px !important;
+    }
+
+    .Record .btn {
+        margin-left: 12% !important;
+    }
+
+    .Column2 {
+        width: 100% !important;
+    }
+
+    .field-validation-error {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-left: 12% !important;
+    }
+
+    .validation-summary-errors {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+        margin-left: 12% !important;
+    }
+}
+
+/* Crappy Android portrait · width: 240px */
+@media only screen and (max-width:240px) {
+
+
+    .login_form {
+        margin: -60% 15% 10% -50% !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        margin-top: 103px !important;
+        margin-left: 120px !important;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .flex-viewport, .flex-control-nav, .flex-direction-nav {
+        display: none !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    .start-learn {
+        width: 68% !important;
+        font-size: 250% !important;
+    }
+
+
+
+    .form-signin {
+        width: 90% !important;
+        margin-top: 11px !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        margin-left: 5% !important;
+    }
+
+    h2 {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 0px !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    h3 {
+        margin-top: 16% !important;
+    }
+
+    #title {
+        line-height: 23px !important;
+        font-size: 25px !important;
+        margin-left: 5% !important;
+        margin-top: 15% !important;
+    }
+
+
+
+    .form-signin input[type="text"], .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        width: 90% !important;
+        margin-left: 1% !important;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    #container1 {
+        margin-top: 25px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #projectTitle {
+        display: none;
+    }
+
+    .Record .Column1 {
+        width: 200px !important;
+        margin-left: 5% !important;
+    }
+
+        .Record .Column1 input {
+            width: 200px !important;
+            margin-left: 5% !important;
+            /*  margin-right: 10px !important;*/
+        }
+
+    .Record .Column2 input {
+        width: 195px !important;
+        margin-left: 5% !important;
+        /*margin-right:10px !important;*/
+    }
+
+    .Record .Column2 select {
+        width: 207px !important;
+        margin-left: 5% !important;
+        /*margin-right:10px !important;*/
+    }
+
+     .Record .btn{
+         margin-left: 5% !important;
+     }
+    /******************************  error *************************/
+    .Column2 {
+        width: 100% !important;
+    }
+
+    .field-validation-error {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+         margin-left: 5% !important;
+         float: left !important;
+         display:block !important;
+    }
+
+    .validation-summary-errors {
+        color: #e80c4d !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        float: left !important;
+         margin-left: 5% !important;
+          display:block !important;
+    }
+}

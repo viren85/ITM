@@ -1,0 +1,98 @@
+﻿@model DisSol.Models.DoctorDetailsModel
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2 id="title">Registration</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="ErrorContainer">@TempData["Error"]</div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="SuccessContainer">@TempData["Success"] Please @Html.ActionLink("click here", "Login") for Login.</div>
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "Registration failed. Please check your details");
+
+
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(d => d.DoctorName)  <!--This is Property-->
+        </div>
+        <div class="Column2">
+            @Html.TextBoxFor(d => d.DoctorName)    <!--This is Property-->
+            @Html.ValidationMessageFor(d => d.DoctorName)  <!--This is Property-->
+        </div>
+    </div>
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(dept => dept.Department)
+        </div>
+        <div class="Column2">
+            @Html.TextBoxFor(dept => dept.Department)
+            @Html.ValidationMessageFor(dept => dept.Department)
+        </div>
+    </div>
+    <div class="Record">
+        <div class="Column1">
+
+            @Html.LabelFor(mob => mob.MobileNumber)
+        </div>
+        <div class="Column2">
+            @Html.TextBoxFor(mob => mob.MobileNumber)
+            @Html.ValidationMessageFor(mob => mob.MobileNumber)
+        </div>
+    </div>
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(addr => addr.Address)
+        </div>
+        <div class="Column2">
+            @Html.TextBoxFor(addr => addr.Address)
+            @Html.ValidationMessageFor(addr => addr.Address)
+        </div>
+    </div>
+
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(area => area.AreaId)
+        </div>
+        <div class="Column2">
+            @Html.DropDownListFor(m => m.AreaId, Model.Areas, "Select Areas")
+            @Html.ValidationMessageFor(m => m.AreaId)
+        </div>
+    </div>
+
+
+
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(user => user.UserName)
+        </div>
+        <div class="Column2">
+            @Html.TextBoxFor(user => user.UserName)
+            @Html.ValidationMessageFor(user => user.UserName)
+        </div>
+    </div>
+    <div class="Record">
+        <div class="Column1">
+            @Html.LabelFor(pwd => pwd.Password)
+        </div>
+        <div class="Column2">
+            @Html.PasswordFor(pwd => pwd.Password)
+            @Html.ValidationMessageFor(pwd => pwd.Password)
+        </div>
+    </div>
+
+    <div class="Record">
+        <input type="submit" value="Register" class="btn btn-success" />
+    </div>
+
+}
+
